@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sở Thích Cá Nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+            padding: 30px 40px;
+        }
+        h1 {
+            text-align: center;
+            color: #2d6a4f;
+        }
+        .hobby {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 36px;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 24px;
+        }
+        .hobby:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .hobby-img {
+            width: 180px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 28px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+        }
+        .hobby-content {
+            flex: 1;
+        }
+        .hobby-title {
+            font-size: 1.4em;
+            color: #40916c;
+            margin-top: 0;
+        }
+        .hobby-desc {
+            margin: 8px 0 0 0;
+        }
+        @media (max-width: 700px) {
+            .container {
+                padding: 16px;
+            }
+            .hobby {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .hobby-img {
+                width: 100%;
+                height: 160px;
+                margin-bottom: 12px;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sở Thích Cá Nhân</h1>
+        
+        <div class="hobby">
+            <img class="hobby-img" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg" alt="Cristiano Ronaldo">
+            <div class="hobby-content">
+                <h2 class="hobby-title">Đá bóng</h2>
+                <p class="hobby-desc">
+                    Đá bóng giúp rèn luyện sức khỏe, tinh thần đồng đội và là cách tuyệt vời để giải trí sau giờ học, làm việc. 
+                    <br>
+                    <b>Ví dụ:</b> Tham gia đội bóng trường, chơi với bạn bè vào cuối tuần, theo dõi các trận đấu lớn như World Cup.
+                </p>
+            </div>
+        </div>
+        
+        <div class="hobby">
+            <img class="hobby-img" src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80" alt="Đàn guitar">
+            <div class="hobby-content">
+                <h2 class="hobby-title">Đánh đàn</h2>
+                <p class="hobby-desc">
+                    Đánh đàn giúp phát triển óc sáng tạo, cảm thụ âm nhạc và thư giãn tâm hồn. Đàn guitar là một trong những nhạc cụ phổ biến, phù hợp cho cả người mới bắt đầu và những người chơi lâu năm.
+                    <br>
+                    <b>Ví dụ:</b> Tự học guitar tại nhà, chơi guitar trong câu lạc bộ, tham gia biểu diễn tại trường.
+                </p>
+            </div>
+        </div>
+        
+        <div class="hobby">
+            <img class="hobby-img" src="https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=600&q=80" alt="Rạp chiếu phim">
+            <div class="hobby-content">
+                <h2 class="hobby-title">Xem phim</h2>
+                <p class="hobby-desc">
+                    Xem phim giúp giải trí, mở rộng kiến thức và khám phá các nền văn hóa khác nhau qua điện ảnh. Không khí rạp chiếu phim mang lại trải nghiệm sống động và thú vị khi thưởng thức các bộ phim bom tấn.
+                    <br>
+                    <b>Ví dụ:</b> Xem phim bom tấn Hollywood, tụ tập bạn bè đi rạp, thưởng thức phim tài liệu trên Netflix.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
